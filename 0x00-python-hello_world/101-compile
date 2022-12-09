@@ -1,2 +1,5 @@
 #!/bin/bash
-python3 -m compileall -b "$PYFILE"
+echo "import py_compile; py_compile.compile('$PYFILE', '$PYFILE' + 'c')" | python3
+# py_compile is a module for that reason I have to import it
+# py_compile compile a source file to byte-code.Receive as parameter (file, cfile)
+# cfile is extension.pyc
