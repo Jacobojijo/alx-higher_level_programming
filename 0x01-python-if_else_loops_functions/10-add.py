@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# Author - Bamidele Adefolaju
 def add(a, b):
-    result = a + b
-    return result
+    """Return the addition of a and b."""
+    return (a + b)

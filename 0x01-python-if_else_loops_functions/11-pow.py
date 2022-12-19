@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# Author -Bamidele Adefolaju
+
 def pow(a, b):
-    result = a**b
-    return result
+    return (a ** b)
